@@ -13,9 +13,25 @@
   body::before{content:'';position:fixed;inset:0;background-image:linear-gradient(rgba(0,212,255,0.04) 1px,transparent 1px),linear-gradient(90deg,rgba(0,212,255,0.04) 1px,transparent 1px);background-size:60px 60px;pointer-events:none;z-index:0;}
 
   /* COLLEGE HEADER */
-  .college-header{position:relative;z-index:200;background:#fff;padding:6px 16px;display:flex;align-items:center;justify-content:center;border-bottom:3px solid #003087;box-shadow:0 2px 12px rgba(0,0,0,0.3);}
-  .college-header img{width:100%;max-width:980px;max-height:88px;object-fit:contain;display:block;}
+ .college-header{
+  position:relative;
+  z-index:200;
+  background:#000;   /* black background */
+  padding:6px 16px;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  border-bottom:3px solid #003087;
+  box-shadow:0 2px 12px rgba(0,0,0,0.3);
+}
 
+.college-header img{
+  width:100%;
+  max-width:980px;
+  max-height:88px;
+  object-fit:contain;
+  display:block;
+}
   /* ORGANISED BY BANNER */
   .org-banner{position:relative;z-index:199;background:linear-gradient(90deg,#003087 0%,#0a1a5c 50%,#003087 100%);padding:9px 20px;text-align:center;display:flex;align-items:center;justify-content:center;gap:12px;border-bottom:2px solid var(--neon-blue);}
   .org-banner span{font-family:'Space Mono',monospace;font-size:.78rem;letter-spacing:.18em;color:#e8e8ff;text-transform:uppercase;}
